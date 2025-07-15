@@ -56,6 +56,16 @@
       height: 50px;
       object-fit: contain;
     }
+    .icon {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      border-radius: 50%;
+      font-size: 28px;
+    }
     .card-content {
       padding: 1rem 1.5rem;
       flex-grow: 1;
@@ -99,6 +109,7 @@
       border-left: 5px solid #3E7CB1;
     }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-MPt6CmM7PjeU4mYqlcxC4YI9sH7w5q04GJ0kYfZxN1G8gYg7rU88oMbG4D6qbwIX5cQ1dKhEKLPMsPKps6RwWw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <header>
@@ -107,7 +118,7 @@
   <div class="container">
     <div class="card moc-llab">
       <div class="card-header">
-        <img src="https://metabolismofcities-llab.org/favicon.ico" alt="Metabolism of Cities">
+        <div class="icon"><i class="fas fa-leaf"></i></div>
         <h3>Metabolism of Cities LLAB</h3>
       </div>
       <div class="card-content">
@@ -129,6 +140,7 @@
 
     <div class="card human-dynamics">
       <div class="card-header">
+        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
         <h3>Human Dynamics Lab</h3>
       </div>
       <div class="card-content">
